@@ -16,4 +16,5 @@ This repository contains a Python script for predicting cancer types based on a 
 4. Navigate to the repository folder.
 5. Run the following command:
 
-
+```bash
+   git clone https://github.com/YourUsername/YourRepository.git
