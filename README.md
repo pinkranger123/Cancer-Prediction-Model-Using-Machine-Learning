@@ -16,16 +16,16 @@ This repository contains a Python script for predicting cancer types based on a 
    git clone https://github.com/pinkranger123/Cancer-Prediction-Model-Using-Machine-Learning.git
 
 1. Navigate to the project directory:
-
+```bash
 cd Cancer-Prediction-Model-Using-Machine-Learning
 
 2. Install required libraries:
-
+```bash
 pip install -r requirements.txt
 
 3. Run the Python script:
 
-
+```bash
 python Cancer_Prediction_Model_Using_Machine_Learning.py
 
 Output : 
