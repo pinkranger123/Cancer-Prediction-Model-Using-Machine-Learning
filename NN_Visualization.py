@@ -7,7 +7,7 @@ plt.title("Neural Network Confusion Matrix")
 plot_confusion_matrix(nn_model, X_test, y_test, cmap=plt.cm.Blues)
 plt.show()
 
-# Assuming you have history object after model training called 'history'
+# We have history object after model training called 'history'
 # Plotting Training & Validation Loss for Neural Network
 plt.figure(figsize=(8, 6))
 plt.plot(history.history['loss'], label='Training Loss')
