@@ -1,37 +1,70 @@
 # Cancer-Prediction-Model-Using-Machine-Learning
-Cancer Prediction using Machine Learning
+Cancer Prediction Using Machine Learning
+# Cancer Type Prediction Project
 
-This repository contains a Python script for predicting cancer types based on a given dataset using machine learning models such as Support Vector Machines (SVM), Random Forest, and Neural Networks.
+Welcome to the Cancer Type Prediction project! This project focuses on predicting cancer types based on a given dataset using various machine learning models.
 
-## Prerequisites
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Navigate to the Project Directory](#navigate-to-the-project-directory)
+  - [Usage](#usage)
+- [Data Description](#data-description)
+- [SVM Analysis](#svm-analysis)
+- [Random Forest Analysis](#random-forest-analysis)
+- [Neural Network Analysis](#neural-network-analysis)
+- [Model Comparison](#model-comparison)
+- [Discussion and Conclusion](#discussion-and-conclusion)
+- [References](#references)
 
-- Python 3.x
-- Libraries: pandas, scikit-learn
+## Project Overview
 
-## Usage
+This project aims to predict cancer types using a dataset containing gene expression data. The project follows these major steps:
 
-1. **Clone the repository:**
+1. **Data Import and Preparation:** Loading the dataset and preparing it for analysis.
 
-   ```bash
-   git clone https://github.com/pinkranger123/Cancer-Prediction-Model-Using-Machine-Learning.git
+2. **SVM Analysis:** Utilizing Support Vector Machines (SVM) with different kernels for cancer type prediction.
 
-1. Navigate to the project directory:
+3. **Random Forest Analysis:** Applying Random Forest, a robust ensemble method, to predict cancer types.
+
+4. **Neural Network Analysis:** Using Neural Networks for cancer type prediction and performing a grid search for parameter tuning.
+
+5. **Model Comparison:** Comparing the performance of SVM, Random Forest, and Neural Networks to identify the best-performing model.
+
+6. **Discussion and Conclusion:** Reflecting on the implications of accurate cancer type prediction, considering real-world applications, and summarizing the findings.
+
+## Getting Started
+
+### Prerequisites
+
+Before running the code, ensure you have the following Python libraries installed:
+
+- pandas
+- scikit-learn
+- numpy
+- matplotlib
+- seaborn
+
+### Installation
+
+Clone this repository to your local machine:
+
 ```bash
+git clone https://github.com/pinkranger123/Cancer-Prediction-Model-Using-Machine-Learning.git
+
+### Navigating
+
+Navigate to the project directory:
 cd Cancer-Prediction-Model-Using-Machine-Learning
 
-2. Install required libraries:
-```bash
-pip install -r requirements.txt
+### Usage
+To execute the code and analyze cancer type prediction models, follow these steps:
 
-3. Run the Python script:
+Download the dataset data_train.csv and place it in the project directory.
 
-```bash
-python Cancer_Prediction_Model_Using_Machine_Learning.py
+Run the main Python script:
 
-Output : 
-The script will print the accuracy scores of SVM, Random Forest, and Neural Network models. The best-performing model will be saved as best_model.pkl.
+python cancer_type_prediction.py
 
-Notes : 
-The dataset is loaded from data_train.csv file.
-The models are evaluated based on accuracy.
-The best-performing model is saved for future use.
