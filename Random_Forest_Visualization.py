@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import plot_confusion_matrix
 
-# Assuming you have a trained Random Forest model called 'rf_model'
+# We have a trained Random Forest model called 'rf_model'
 # and test data 'X_test' and 'y_test'
 
 # Confusion Matrix for Random Forest
